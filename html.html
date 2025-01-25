@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Befehle und Bedeutungen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 130px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            margin: 0px;
+            padding: 10px;
+            background-color: black;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            margin-left: -30px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: grey;
+            text-decoration: underline;
+        }
+
+        li {
+            margin: 10px;
+            padding: 10px;
+            padding-left: 200px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #111;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            color:white;
+            margin-left: -30px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>HTML-Befehle und ihre Bedeutungen</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>HTML-Befehl</th>
+                <th>Bedeutung</th>
+                <th>Beispiel</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&lt;h1&gt;...&lt;/h1&gt;</td>
+                <td>Definiert eine Überschrift der Ebene 1.</td>
+                <td>&lt;h1&gt;Willkommen&lt;/h1&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;p&gt;...&lt;/p&gt;</td>
+                <td>Definiert einen Absatz.</td>
+                <td>&lt;p&gt;Das ist ein Text.&lt;/p&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;a&gt;...&lt;/a&gt;</td>
+                <td>Definiert einen Link.</td>
+                <td>&lt;a href="https://example.com"&gt;Link&lt;/a&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;img&gt;</td>
+                <td>Fügt ein Bild ein.</td>
+                <td>&lt;img src="bild.jpg" alt="Beschreibung"&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;ul&gt; &lt;li&gt;...&lt;/li&gt; &lt;/ul&gt;</td>
+                <td>Erstellt eine ungeordnete Liste.</td>
+                <td>
+                    &lt;ul&gt;<br>
+                    &nbsp;&nbsp;&lt;li&gt;Punkt 1&lt;/li&gt;<br>
+                    &nbsp;&nbsp;&lt;li&gt;Punkt 2&lt;/li&gt;<br>
+                    &lt;/ul&gt;
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;video&gt;...&lt;/video&gt;
+                </td>
+                <td>
+                    Fügt ein Video ein welches du mit "control" bearbeiten kannst.
+                </td>
+                <td>
+                    &lt;video src="video.mp4" controls &lt;/video>
+                </td>
+            </tr>
+
+
+        </tbody>
+    </table>
+
+    <ul>
+        <li><a href='https://google.de'>Home</a></li>
+        <li><a href='https://google.de'>HTML</a></li>
+        <li><a href='https://google.de'>CSS</a></li>
+        <li><a href='https://google.de'>Shortcuts</a></li>
+        <li><a href='https://google.de'>Datenschutz</a></li>
+        <li><a href='https://google.de'>Kontakt</a></li>
+    </ul>
+
+    <footer>
+        <p>&copy; 2025 HTML und CSS lernen by MYN4YY</p>
+    </footer>
+</body>
+
+</html>
