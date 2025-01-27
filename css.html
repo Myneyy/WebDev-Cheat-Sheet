@@ -10,7 +10,11 @@
             font-family: Arial, sans-serif;
             margin: 20px;
             line-height: 1.6;
+        }
 
+        main {
+            flex: 1;
+            padding-bottom: 100px;
         }
 
         h1 {
@@ -74,32 +78,165 @@
             position: fixed;
             bottom: 0;
             width: 100%;
-            color:white;
+            color: white;
             margin-left: -30px;
+            height: 5%;
         }
     </style>
 </head>
 
 <body>
-    <h1>CSS-Befehle und ihre Bedeutungen</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>CSS-Befehl</th>
-                <th>Bedeutung</th>
-                <th>Beispiel</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>width:...;</td>
-                <td>Definiert die Breite eines Elements.</td>
-                <td>width:100%;</td>
-            
-
-
-        </tbody>
-    </table>
+    <main>
+        <h1>CSS-Befehle und ihre Bedeutungen</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>CSS-Befehl</th>
+                    <th>Bedeutung</th>
+                    <th>Beispiel</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>width: ...;</td>
+                    <td>Bestimmt, wie breit ein Element ist.</td>
+                    <td>width: 100%;</td>
+                </tr>
+                <tr>
+                    <td>height: ...;</td>
+                    <td>Bestimmt, wie hoch ein Element ist.</td>
+                    <td>height: 200px;</td>
+                </tr>
+                <tr>
+                    <td>background-color: ...;</td>
+                    <td>Ändert die Hintergrundfarbe eines Elements.</td>
+                    <td>background-color: red;</td>
+                </tr>
+                <tr>
+                    <td>color: ...;</td>
+                    <td>Ändert die Farbe des Textes.</td>
+                    <td>color: blue;</td>
+                </tr>
+                <tr>
+                    <td>font-size: ...;</td>
+                    <td>Ändert die Größe des Textes.</td>
+                    <td>font-size: 16px;</td>
+                </tr>
+                <tr>
+                    <td>font-family: ...;</td>
+                    <td>Bestimmt, welche Schriftart verwendet wird.</td>
+                    <td>font-family: Arial, sans-serif;</td>
+                </tr>
+                <tr>
+                    <td>margin: ...;</td>
+                    <td>Bestimmt, wie viel Platz um ein Element herum ist.</td>
+                    <td>margin: 20px;</td>
+                </tr>
+                <tr>
+                    <td>padding: ...;</td>
+                    <td>Bestimmt, wie viel Platz innerhalb eines Elements ist (zwischen Inhalt und Rand).</td>
+                    <td>padding: 10px;</td>
+                </tr>
+                <tr>
+                    <td>border: ...;</td>
+                    <td>Fügt einen Rand um ein Element hinzu.</td>
+                    <td>border: 1px solid black;</td>
+                </tr>
+                <tr>
+                    <td>text-align: ...;</td>
+                    <td>Bestimmt, wie der Text im Element ausgerichtet wird.</td>
+                    <td>text-align: center;</td>
+                </tr>
+                <tr>
+                    <td>display: ...;</td>
+                    <td>Bestimmt, wie ein Element angezeigt wird.</td>
+                    <td>display: block;</td>
+                </tr>
+                <tr>
+                    <td>position: ...;</td>
+                    <td>Bestimmt, wie und wo ein Element auf der Seite positioniert wird.</td>
+                    <td>position: absolute;</td>
+                </tr>
+                <tr>
+                    <td>float: ...;</td>
+                    <td>Bestimmt, dass ein Element neben einem anderen „schweben“ kann.</td>
+                    <td>float: left;</td>
+                </tr>
+                <tr>
+                    <td>clear: ...;</td>
+                    <td>Verhindert, dass Elemente nebeneinander „schweben“.</td>
+                    <td>clear: both;</td>
+                </tr>
+                <tr>
+                    <td>overflow: ...;</td>
+                    <td>Bestimmt, was passiert, wenn der Inhalt eines Elements zu groß für den verfügbaren Platz ist.
+                    </td>
+                    <td>overflow: hidden;</td>
+                </tr>
+                <tr>
+                    <td>z-index: ...;</td>
+                    <td>Bestimmt, welches Element „oben“ liegt, wenn mehrere Elemente übereinander sind.</td>
+                    <td>z-index: 10;</td>
+                </tr>
+                <tr>
+                    <td>opacity: ...;</td>
+                    <td>Bestimmt, wie durchsichtig ein Element ist.</td>
+                    <td>opacity: 0.5;</td>
+                </tr>
+                <tr>
+                    <td>box-shadow: ...;</td>
+                    <td>Fügt dem Element einen Schatten hinzu.</td>
+                    <td>box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);</td>
+                </tr>
+                <tr>
+                    <td>text-shadow: ...;</td>
+                    <td>Fügt dem Text einen Schatten hinzu.</td>
+                    <td>text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);</td>
+                </tr>
+                <tr>
+                    <td>border-radius: ...;</td>
+                    <td>Rundet die Ecken eines Elements ab.</td>
+                    <td>border-radius: 10px;</td>
+                </tr>
+                <tr>
+                    <td>transition: ...;</td>
+                    <td>Ermöglicht sanfte Übergänge, wenn sich etwas ändert (z. B. beim Hover).</td>
+                    <td>transition: all 0.3s ease;</td>
+                </tr>
+                <tr>
+                    <td>transform: ...;</td>
+                    <td>Verändert die Position, Größe oder Drehung eines Elements.</td>
+                    <td>transform: rotate(45deg);</td>
+                </tr>
+                <tr>
+                    <td>visibility: ...;</td>
+                    <td>Bestimmt, ob ein Element sichtbar oder unsichtbar ist (es nimmt immer noch Platz ein, wenn es
+                        unsichtbar ist).</td>
+                    <td>visibility: hidden;</td>
+                </tr>
+                <tr>
+                    <td>font-weight: ...;</td>
+                    <td>Ändert, wie dick oder dünn der Text ist.</td>
+                    <td>font-weight: bold;</td>
+                </tr>
+                <tr>
+                    <td>line-height: ...;</td>
+                    <td>Bestimmt den Abstand zwischen den Textzeilen.</td>
+                    <td>line-height: 1.5;</td>
+                </tr>
+                <tr>
+                    <td>list-style-type: ...;</td>
+                    <td>Bestimmt, wie Aufzählungszeichen in Listen aussehen.</td>
+                    <td>list-style-type: square;</td>
+                </tr>
+                <tr>
+                    <td>visibility: ...;</td>
+                    <td>Steuert, ob ein Element sichtbar ist, aber immer noch Platz im Layout beansprucht.</td>
+                    <td>visibility: collapse;</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
 
     <ul>
         <li><a href='index.html'>Home</a></li>
