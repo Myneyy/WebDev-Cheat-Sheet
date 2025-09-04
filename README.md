@@ -13,8 +13,8 @@ This repository is created for **beginners** and for myself as a quick reference
 ---
 
 ## 🚀 Purpose
-This cheat sheet is designed to provide a **quick overview of the basics** in HTML, CSS, and common shortcuts.  
-It is mainly for beginners to **learn and review concepts**, and also for myself to **easily recall important commands**.
+This cheat sheet is meant to give a **quick look at the basics** of HTML, CSS, and common shortcuts.  
+It's mostly for beginners to **learn and practice the essentials**, and also for me to **quickly check and remember important commands**.
 
 ---
 
