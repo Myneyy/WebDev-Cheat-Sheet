@@ -33,4 +33,10 @@ Each section is organized to make it **easy to navigate and understand**.
 2. Look up the tag/property/shortcut in the table.  
 3. Check the meaning and example to understand how it works.
 
+---
+
+If you found this cheat sheet helpful, feel free to ⭐ the repository!
+
+
+
 
