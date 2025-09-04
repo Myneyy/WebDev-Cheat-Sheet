@@ -1,5 +1,7 @@
 # Web Development Cheat Sheet
 
+![Screenshot of the cheat sheet](media/screenshot_cheat_sheet_website.png)
+
 A simple **HTML, CSS, and Shortcuts Cheat Sheet** with the most important commands, tips, and examples.  
 I made this mainly for **beginners** and for myself so I have a **quick reference** while learning web development.
 ---
