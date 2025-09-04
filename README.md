@@ -35,6 +35,7 @@ Each section is organized to make it **easy to navigate and understand**.
 
 ---
 
+## Drop a ⭐
 If you found this cheat sheet helpful, feel free to ⭐ the repository!
 
 
