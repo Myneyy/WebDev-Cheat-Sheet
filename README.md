@@ -1,8 +1,7 @@
 # Web Development Cheat Sheet
 
-A simple **HTML, CSS, and Shortcuts Cheat Sheet** with essential commands, tips, and examples.  
-This repository is created for **beginners** and for myself as a quick reference while learning web development.
-
+A simple **HTML, CSS, and Shortcuts Cheat Sheet** with the most important commands, tips, and examples.  
+I made this mainly for **beginners** and for myself so I have a **quick reference** while learning web development.
 ---
 
 ## ✅ Contents
